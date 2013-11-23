@@ -1,0 +1,90 @@
+* {
+	font-family: 'Mercury SSm A', 'Mercury SSm B', Georgia, serif;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #f6f6f6;
+	transition: background 0.5s linear;
+	padding: 5px;
+}
+
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.faded {
+	background-color: #0F1313;
+}
+
+#gateway {
+    position: relative;
+    margin: 7em auto;
+    width: 16em;
+    height: 16em;
+    border-radius: 50%;
+    background: #172626;
+    top: -500px;
+}
+
+#gateway p {
+	width: 12em;
+	color: white;
+	position: relative;
+	text-align: center;
+	top: 50%;
+	left: 12%;
+}
+
+
+.btn {
+	position: relative;
+	left: 30%;
+	box-shadow:inset 0px 1px 0px 0px #017263;
+	background-color:#172626;
+	border-top-left-radius:42px;
+	border-top-right-radius:42px;
+	border-bottom-right-radius:42px;
+	border-bottom-left-radius:42px;
+	text-indent:0;
+	border:2px solid #000000;
+	display:inline-block;
+	color:#ffffff;
+	font-size:15px;
+	font-style:normal;
+	height:50px;
+	width: 50px;
+	line-height:50px;
+	text-decoration:none;
+	text-align:center;
+	cursor: pointer;
+}
+
+.btn a {
+	text-decoration: none;
+}
+
+.btn a:visited {
+	color: inherit;
+}
+
+
+.btn a:active {
+	color: inherit;
+}
+
+
+.btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #017263), color-stop(1, #017263) );
+	background:-moz-linear-gradient( center top, #017263 5%, #017263 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#017263', endColorstr='#017263');
+	background-color:#017263;
+}.btn:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
