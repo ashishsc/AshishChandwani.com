@@ -10,7 +10,7 @@
 			top: 0
 		}, 2000, function() {
 			// Animation complete
-			$('#gateway p').text("Welcome to Ashish's page\n. Please choose an option");
+			$('#gateway p').text("Welcome to Ashish's page.\n Please choose an option");
 			$('.btn').fadeIn();
 		});
 	}, 200);
